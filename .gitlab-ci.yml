@@ -1,4 +1,4 @@
-image: adoptopenjdk:11.0.10_9-jdk-openj9-0.24.0
+image: maven:3.6.3-jdk-11
 variables:
   MAVEN_CLI_OPTS: "-s .m2/settings.xml --batch-mode"
   MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository -Dmaven.artifact.threads=50"
